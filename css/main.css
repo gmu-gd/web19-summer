@@ -180,6 +180,13 @@ header {
     border: 3px solid black;
     box-shadow: 6px 6px 0 0 dodgerblue;
 }
+.ex {
+  background-color: #222;
+}
+.ex:hover {
+  cursor: default;
+  background-color: #222;
+}
 footer {
     border-top: 2px whitesmoke solid;
 }
