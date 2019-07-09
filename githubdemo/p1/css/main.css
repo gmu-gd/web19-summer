@@ -1,0 +1,35 @@
+body {
+  /* clears default margins */
+  margin: 0;
+}
+/* # references an ID */
+ #container {
+  width: 320px;
+  margin: 100px auto;
+  /* background-color: red; */
+ }
+ ul {
+   list-style-type: none;
+   padding: 0;
+   text-align: center;
+ }
+ li {
+   margin: 25px 0;
+ }
+ a, .title {
+   font-size: 30px;
+   font-family: sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: black;
+   border-bottom: 4px solid black;
+   text-decoration: none;
+ }
+ .title {
+   border: none;
+ }
+a:hover {
+  color: dodgerblue;
+  border-bottom-color: dodgerblue;
+}
